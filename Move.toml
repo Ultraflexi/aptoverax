@@ -1,0 +1,10 @@
+[package]
+name = "aptos_transfer"
+version = "0.0.1"
+
+[addresses]
+owner = "0x5e3bd198f6a58a0d8ab7c5832e788d1e253c9f48d45208e3d4bbe4783583e897"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
